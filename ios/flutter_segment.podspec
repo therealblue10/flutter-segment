@@ -17,6 +17,7 @@ A new flutter plugin project.
   s.dependency 'Flutter'
   s.dependency 'Analytics', '~> 4.1'
   s.dependency 'Segment-Amplitude', '~> 3.3'
+  s.static_framework = true
   s.ios.deployment_target = '12.0'
 
 end
